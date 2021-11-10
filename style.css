@@ -2,4 +2,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.welcome {
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.random_numbers, .win_numbers {
+    background-color: rgb(100, 100, 100);
+    padding: 20%;
+}
+
+.win_number, .extracted_number {
+    margin: 0 15px;
+    color: red;
+}
+
+.none {
+    display: none;
 }
